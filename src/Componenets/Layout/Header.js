@@ -1,6 +1,7 @@
 import React,{Fragment} from "react";
 import indianFood from "../../assets/indianFood.jpg";
 import classes from '../Layout/Header.module.css';
+import HeaderCartButton from "./HeaderCartButton";
 
 const Header = ()=>{
     return(
@@ -8,7 +9,7 @@ const Header = ()=>{
         <header className={classes.header} >
            
                 <p>React Meals</p>
-                <button>Cart</button>
+                <HeaderCartButton/>
           
            
         </header>
