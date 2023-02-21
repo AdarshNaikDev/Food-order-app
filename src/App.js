@@ -1,4 +1,4 @@
-
+import './App.css'
 import Header from './Componenets/Layout/Header';
 import Meals from './Componenets/Meals/Meals';
 
@@ -8,7 +8,7 @@ function App() {
     <div >
      <Header />
      <main>
-     <Meals/>
+     <Meals/> 
      </main>
     </div>
   );
